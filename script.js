@@ -13,3 +13,4 @@ if (日 === 1) {
 }
 
 document.getElementById("text").textContent = テキスト;
+document.querySelector('meta[property="og:description"]').setAttribute("content", テキスト);
